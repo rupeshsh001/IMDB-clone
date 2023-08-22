@@ -12,7 +12,6 @@ const DarkModeSwitch = () => {
         setMounted(true);
     }, []);
     const currentTheme = theme === 'system' ? systemTheme : theme;
-    console.log({ systemTheme, theme, setTheme });
     return (
         <>
             {mounted &&
